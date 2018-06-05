@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<title>FIFA World Cup 2018 Russia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
+	<link rel="stylesheet" href="css/index2018.css">
+</head>
+<body>
+	<div class="header" align="center">
+		<h1>2018 FIFA World Cup RUSSIA</h1>
+		<p>Set or change match scores to see their effects on the table!</p>
+	</div>
+	<div class="container">
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs nav-justified"> <!-- nav-justified -->
+		  <li class="nav-item">
+		    <a class="nav-link active" data-toggle="tab" href="#groupA" id="grpA">
+			<div class="row">
+				<div class="leftflags">
+					<img class="flags" src="images/flags/Russia.png" alt="Russia">
+					<br>
+					<img class="flags" src="images/flags/Saudi_Arabia.png" alt="Saudi_Arabia">
+				</div>
+				<span id="groupId"> Group A</span>
+				<div class="rightflags">
+					<img class="flags" src="images/flags/Egypt.png" alt="Egypt">
+					<br>
+					<img class="flags" src="images/flags/Uruguay.png" alt="Uruguay">	
+				</div>
+			</div>
+			</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupB" id="grpB">
+			<div class="row">
+				<div class="leftflags">
+					<img class="flags" src="images/flags/Portugal.png" alt="Portugal">
+					<br>
+					<img class="flags" src="images/flags/Spain.png" alt="Spain">
+				</div>
+				<span id="groupId">Group B</span>
+				<div class="rightflags">
+					<img class="flags" src="images/flags/Morocco.png" alt="Morocco">
+					<br>
+					<img class="flags" src="images/flags/Iran.png" alt="Iran">	
+				</div>
+			</div>
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupC" id="grpC">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/France.png" alt="France">
+						<br>
+						<img class="flags" src="images/flags/Peru.png" alt="Peru">
+					</div>
+					<span id="groupId">Group C</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/Denmark.png" alt="Denmark">
+						<br>
+						<img class="flags" src="images/flags/Australia.png" alt="Australia">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupD" id="grpD">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/Argentina.png" alt="Argentina">
+						<br>
+						<img class="flags" src="images/flags/Iceland.png" alt="Iceland">
+					</div>
+					<span id="groupId">Group D</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/Croatia.png" alt="Croatia">
+						<br>
+						<img class="flags" src="images/flags/Nigeria.png" alt="Nigeria">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupE" id="grpE">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/Brazil.png" alt="Brazil">
+						<br>
+						<img class="flags" src="images/flags/Switzerland.png" alt="Switzerland">
+					</div>
+					<span id="groupId">Group E</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/Costa_Rica.png" alt="Costa_Rica">
+						<br>
+						<img class="flags" src="images/flags/Serbia.png" alt="Serbia">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupF" id="grpF">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/Germany.png" alt="Germany">
+						<br>
+						<img class="flags" src="images/flags/Sweden.png" alt="Sweden">
+					</div>
+					<span id="groupId">Group F</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/South_Korea.png" alt="South_Korea">
+						<br>
+						<img class="flags" src="images/flags/Mexico.png" alt="Mexico">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupG" id="grpG">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/Belgium.png" alt="Belgium">
+						<br>
+						<img class="flags" src="images/flags/Tunisia.png" alt="Tunisia">
+					</div>
+					<span id="groupId">Group G</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/England.png" alt="England">
+						<br>
+						<img class="flags" src="images/flags/Panama.png" alt="Panama">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" data-toggle="tab" href="#groupH" id="grpH">
+				<div class="row">
+					<div class="leftflags">
+						<img class="flags" src="images/flags/Poland.png" alt="Poland">
+						<br>
+						<img class="flags" src="images/flags/Colombia.png" alt="Colombia">
+					</div>
+					<span id="groupId">Group H</span>
+					<div class="rightflags">
+						<img class="flags" src="images/flags/Japan.png" alt="Japan">
+						<br>
+						<img class="flags" src="images/flags/Senegal.png" alt="Senegal">	
+					</div>
+				</div>		    	
+		    </a>
+		  </li>		  		  
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+		  <div class="tab-pane container active" id="groupA">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table table-light">
+						  <caption>Group A</caption>
+						  <tbody>						    						    						    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>
+		  </div>
+		  <div class="tab-pane container fade" id="groupB">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group B</caption>
+						  <tbody>					    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>		  	
+		  </div>
+		  <div class="tab-pane container fade" id="groupC">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group C</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>			  	
+		  </div>
+		  <div class="tab-pane container fade" id="groupD">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group D</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>
+		  </div>
+		  <div class="tab-pane container fade" id="groupE">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group E</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>
+		  </div>
+		  <div class="tab-pane container fade" id="groupF">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group F</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>		  	
+		  </div>
+		  <div class="tab-pane container fade" id="groupG">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group G</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>		  	
+		  </div>	
+  		  <div class="tab-pane container fade" id="groupH">
+		  		<div class="row">
+					<div class="col-md-12">
+						<table class="table">
+						  <caption>Group H</caption>
+						  <tbody>				    						   		    
+						  </tbody>
+						</table>
+					</div>
+		  		</div>  		  	
+  		  </div>	
+		</div>
+		<button id="getthevalue" type="button" class="btn btn-primary">Primary</button>	
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script> -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="js/indexJS2018.js"></script>
+</body>
+</html>
