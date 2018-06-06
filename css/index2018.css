@@ -24,7 +24,8 @@ body{
 .flags{
 	width: 24px;
 	height: 16px;
-	margin:2px;
+	float: left;
+
 }
 
 .flag{
@@ -50,4 +51,12 @@ caption{
 
 input{
 	text-align: center;
+}
+
+input[type="number"].form-control {
+	width: 100px !important;
+}
+
+td.tor{
+	width: 100px;
 }
